@@ -1,0 +1,912 @@
+/* ======================
+extra small device starts
+======================== */
+@media(max-width:575px){
+    /* menu starts */
+
+    .nav-fix{
+        background: none;
+    }
+    .navbar .navbar-toggler{
+        margin-top:70px;
+        margin-right: 10px;
+        padding: 5px 10px!important;
+        background: linear-gradient(188deg,#c48a04,#a0560d);
+    }
+    .navbar .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar .navbar-toggler span{
+        font-size: 30px;
+        color: #ffffff;
+    } 
+    .navbar .navbar-bg{
+        background:rgba(37, 20, 2, 0.6);
+    }
+    .navbar .navbar-nav{
+        align-items:flex-end;
+        margin-left: 180px;
+    }
+    .navbar .navbar-nav .nav-item{
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+    .navbar .navbar-bg .cta-btn{
+        margin-top: 15px;
+    }
+    /* menu ends */
+
+
+    /* banner starts */
+    #banner-bg{
+        padding-bottom: 80px;
+    }
+    #banner-bg .banner-image{
+        position: unset!important;
+    }
+    #banner-bg .banner-text h5{
+        font-size: 20px;
+        padding-left: 20px;
+        padding-top: 35px;
+    }
+    #banner-bg .banner-text h1{
+        text-align: center;
+        line-height: 170px;
+        padding-left: 0px!important;
+        font-size: 180px;
+    }
+    #banner-bg .banner-text p{
+        font-size: 15px;
+        padding-right: 0px!important;
+        padding-left: 20px;
+        margin-top: 5px;
+    }
+    #banner-bg .banner-text .cta-btn{
+        margin-left: 80px;
+    }
+    /* banner ends */
+
+
+    /* service starts */
+
+    #service .service-content{
+        display: block!important;
+        clip-path: none;
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+    }
+    #service .service-content .service-item{
+        padding: 20px 0px!important;
+    }
+    #service .service-content .service-item h3{
+        padding-bottom: 0px;
+    }
+    #service .service-content .service-item p{
+        font-size: 15px;
+    }
+    /* service ends */
+
+
+    /* game starts */
+
+    #game{
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    #game h3{
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    #game .game-content .game-item .game-overlay p{
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+    #game .game-content .game-item{
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+    }
+    /* game ends */
+
+    /* claim starts */
+    #claim{
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+    #claim .claim-img{
+        position: unset!important;
+    }
+    #claim .claim-content h3{
+        padding-top: 20px;
+        padding-bottom: 15px;
+        font-size: 40px;
+    }
+    #claim .claim-content p{
+        font-size: 15px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+    #claim .claim-content .cta-btn{
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+
+    /* claim ends */
+
+
+    /* price starts */
+
+    #price{
+        padding-top: 30px;
+        padding-bottom: 70px;
+    }
+    #price h3{
+        font-size: 40px;
+    }
+    #price .pricing-content{
+        margin-top: 40px;
+        margin-bottom: 15px;
+        animation: none;
+        -webkit-animation: none;
+    }
+    #price .pricing-content .trial-plan h4{
+        padding-top: 30px;
+    }
+    #price .pricing-content .trail-details ul li{
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+    #price .pricing-content .button .cta-btn{
+        font-size: 20px;
+        padding: 0px 20px!important;
+    }
+    /* price ends */
+
+    /* faq starts */
+
+    #faq{
+        padding: 30px 0px;
+    }
+    #faq .faq-header{
+        margin-top: 10px;
+    }
+    #faq .faq-header .faq-heading h3{
+        font-size: 25px;
+        padding-bottom: 25px;
+    }
+    #faq .question .accordion .accordion-item .accordion-header .accordion-button{
+        padding: 16px 0px;
+        font-size: 13px;
+    }
+    #faq .question .accordion .accordion-item .accordion-body{
+        padding: 0px 0px 15px 25px;
+        font-size: 13px;
+    }
+    #faq .faq-header .faq-heading img{
+        animation:effect 5s alternate infinite ;
+        -webkit-animation:effect 3s alternate infinite ;
+    }
+    @keyframes effect{
+        0%{
+            left: 0%;
+        }
+        100%{
+            left: 15%;
+        }
+    }
+    #faq .tournament .time{
+        padding-top: 5px;
+    }
+    #faq .tournament .time-text p{
+        font-size: 15px;
+    }
+    #faq .tournament .time .time-zone h5{
+        height: 40px;
+        width: 40px;
+        font-size: 13px;
+        padding: 4px 0px 0px 0px;
+        margin-left: 12px;
+    }
+    #faq .tournament .scroll .scroll-item .country-image{
+        text-align: center;
+    }
+    #faq .tournament .scroll .scroll-item p{
+        font-size: 13px;
+    }
+    /* faq ends */
+
+    /* subscribe starts */
+
+    #subscribe{
+        padding: 15px 0;
+    }
+    #subscribe .subscribe-item .subscribe-head h3{
+        font-size: 24px;
+    }
+    #subscribe .subscribe-item input{
+        width: 240px;
+        padding: 4px 10px;
+    }
+    #subscribe .subscribe-item form button{
+        line-height: 32px;
+        padding: 0px 10px;
+    }
+    #subscribe .subscribe-item .subscribe-head{
+        margin-top: 15px;
+    }
+    #subscribe .subscribe-item .subscribe-image .image-item{
+        margin-right: 2px;
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+    }
+
+    /* subscribe ends */
+
+    /* footer starts */
+    footer{
+        padding: 20px 0;
+    }
+    footer .about-jackpot h3{
+        font-size: 25px;
+    }
+    footer .about-jackpot p{
+        font-size: 15px;
+        padding: 15px 0px 24px 0px;
+    }
+    footer .important-links{
+        margin-top: 20px;
+    }
+    footer .important-links .links-item{
+        margin-top: 25px;
+    }
+    footer .important-links .links-item ul li{
+        margin-bottom: 10px;
+    }
+    footer .security-info{
+        margin-top:20px ;
+    }
+    footer .security-info h3{
+        font-size:25px ;
+    }
+    footer .security-info ul{
+        margin-top: 20px;
+    }
+    footer .security-info ul li{
+        margin-bottom: 20px;
+    }
+    footer .security-info ul li p{
+        padding-right: 70px;
+        font-size: 13px;
+    }
+    footer .animate1{
+        animation: none;
+    }
+    footer .animate2{
+        animation: none;
+    }
+    /* footer ends */
+
+    /* copy starts */
+    .copy p{
+        font-size: 13px;
+    }
+    /* copy ends */
+
+    /* arrow starts */
+    .arrow{
+        bottom: 80px;
+    }
+    /* arrow ends */
+}
+
+
+/* ======================
+extra small device ends
+======================== */
+
+
+/* ======================
+small device starts
+======================== */
+@media(min-width:576px) and (max-width:767px){
+    /* menu starts */
+
+    .nav-fix{
+        background: none;
+    }
+    .navbar .navbar-toggler{
+        margin-top:70px;
+        margin-right: 10px;
+        padding: 5px 10px!important;
+        background: linear-gradient(188deg,#c48a04,#a0560d);
+    }
+    .navbar .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar .navbar-toggler span{
+        font-size: 30px;
+        color: #ffffff;
+    } 
+    .navbar .navbar-bg{
+        background:rgba(37, 20, 2, 0.6);
+    }
+    .navbar .navbar-nav{
+        align-items:flex-end;
+        margin-left: 180px;
+    }
+    .navbar .navbar-nav .nav-item{
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+    .navbar .navbar-bg .cta-btn{
+        margin-top: 15px;
+    }
+    .navbar .container .collapse .cta-btn:first-of-type{
+        margin-left: 280px;
+    }
+    /* menu ends */
+
+    /* banner starts */
+    #banner-bg{
+        padding-bottom: 80px;
+    }
+    #banner-bg .banner-image{
+        position: unset!important;
+    }
+    #banner-bg .banner-text h5{
+        font-size: 20px;
+        padding-left: 45px;
+        padding-top: 35px;
+    }
+    #banner-bg .banner-text h1{
+        text-align: center;
+        line-height: 270px;
+        padding-left: 0px!important;
+        font-size: 300px;
+    }
+    #banner-bg .banner-text p{
+        font-size: 17px;
+        padding-right: 0px!important;
+        padding-left: 45px;
+        margin-top: 5px;
+    }
+    #banner-bg .banner-text .cta-btn{
+        margin-left: 195px;
+    }
+    /* banner ends */
+
+
+     /* service starts */
+
+    #service .service-content{
+        display: block!important;
+        clip-path: none;
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+    }
+    #service .service-content .service-item{
+        padding: 20px 0px!important;
+    }
+    #service .service-content .service-item h3{
+        padding-bottom: 0px;
+    }
+    #service .service-content .service-item p{
+        font-size: 17px;
+    }
+    /* service ends */
+
+
+    /* game starts */
+
+    #game{
+        padding-top: 35px;
+        padding-bottom: 40px;
+    }
+    #game h3{
+        font-size: 50px;
+        padding-bottom: 15px;
+    }
+    #game .game-content .game-item .game-overlay p{
+        padding-top: 200px;
+        padding-bottom: 30px;
+    }
+    #game .game-content .game-item{
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+    }
+    /* game ends */
+
+    /* claim starts */
+    #claim{
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+    #claim .claim-img{
+        position: unset!important;
+    }
+    #claim .claim-content h3{
+        padding-top: 20px;
+        padding-bottom: 15px;
+        font-size: 50px;
+    }
+    #claim .claim-content p{
+        font-size: 16px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+    #claim .claim-content .cta-btn{
+        margin-left: 180px;
+        margin-top: 10px;
+    }
+
+    /* claim ends */
+
+
+    /* price starts */
+
+    #price{
+        padding-top: 30px;
+        padding-bottom: 70px;
+    }
+    #price h3{
+        font-size: 50px;
+    }
+    #price .pricing-content{
+        margin-top: 40px;
+        margin-bottom: 15px;
+        animation: none;
+        -webkit-animation: none;
+    }
+    #price .pricing-content .trial-plan h4{
+        padding-top: 30px;
+    }
+    #price .pricing-content .trail-details ul li{
+        font-size: 15px;
+        padding-bottom: 30px;
+    }
+    #price .pricing-content .button .cta-btn{
+        font-size: 20px;
+        padding: 0px 20px!important;
+    }
+    /* price ends */
+
+    /* faq starts */
+
+    #faq{
+        padding: 30px 0px;
+    }
+    #faq .faq-header{
+        margin-top: 10px;
+    }
+    #faq .faq-header .faq-heading h3{
+        font-size: 30px;
+        padding-bottom: 25px;
+    }
+    #faq .question .accordion .accordion-item .accordion-header .accordion-button{
+        padding: 16px 0px;
+        font-size: 16px;
+    }
+    #faq .question .accordion .accordion-item .accordion-body{
+        padding: 0px 0px 15px 25px;
+        font-size: 16px;
+    }
+    #faq .faq-header .faq-heading img{
+        animation:effect 8s alternate infinite ;
+        -webkit-animation:effect 8s alternate infinite ;
+}
+    @keyframes effect{
+        0%{
+            left: 0%;
+        }
+        100%{
+            left: 45%;
+        }
+    }
+    #faq .tournament .time{
+        padding-top: 5px;
+    }
+    #faq .tournament .time-text p{
+        font-size: 20px;
+    }
+    #faq .tournament .time .time-zone h5{
+        height: 60px;
+        width: 60px;
+        font-size: 18px;
+        padding: 4px 0px 0px 0px;
+        margin-left: 12px;
+    }
+    #faq .tournament .scroll .scroll-item .country-image{
+        text-align: center;
+    }
+    #faq .tournament .scroll .scroll-item p{
+        font-size: 15px;
+    }
+    /* faq ends */
+
+    /* subscribe starts */
+
+    #subscribe{
+        padding: 15px 0;
+    }
+    #subscribe .subscribe-item .subscribe-head h3{
+        font-size: 30px;
+    }
+    #subscribe .subscribe-item input{
+        width: 460px;
+        padding: 4px 15px;
+    }
+    #subscribe .subscribe-item form button{
+        line-height: 32px;
+        padding: 0px 10px;
+    }
+    #subscribe .subscribe-item .subscribe-head{
+        margin-top: 15px;
+    }
+    #subscribe .subscribe-item .subscribe-image .image-item{
+        margin-right: 25px;
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+}
+
+    /* subscribe ends */
+
+    /* footer starts */
+    footer{
+        padding: 20px 0;
+    }
+    footer .about-jackpot h3{
+        font-size: 30px;
+    }
+    footer .about-jackpot p{
+        font-size: 15px;
+        padding: 15px 0px 24px 0px;
+    }
+    footer .important-links{
+        margin-top: 20px;
+    }
+    footer .important-links .links-item{
+        margin-top: 25px;
+    }
+    footer .important-links .links-item ul li{
+        margin-bottom: 10px;
+    }
+    footer .security-info{
+        margin-top:20px ;
+    }
+    footer .security-info h3{
+        font-size:30px ;
+    }
+    footer .security-info ul{
+        margin-top: 20px;
+    }
+    footer .security-info ul li{
+        margin-bottom: 20px;
+    }
+    footer .security-info ul li p{
+        padding-right: 230px;
+        font-size: 13px;
+    }
+    footer .animate1{
+        animation: none;
+    }
+    footer .animate2{
+        animation: none;
+    }
+    /* footer ends */
+
+    /* copy starts */
+    .copy p{
+        font-size: 15px;
+    }
+    /* copy ends */
+
+    /* arrow starts */
+    .arrow{
+        bottom: 10px;
+    }
+    /* arrow ends */
+}
+
+
+/* ======================
+small device ends
+======================== */
+
+
+/* ======================
+medium device starts
+======================== */
+
+@media(min-width:768px) and (max-width:991px){
+    /* menu starts */
+
+    .nav-fix{
+        background: none;
+    }
+    .navbar .navbar-toggler{
+        margin-top:70px;
+        margin-right: 10px;
+        padding: 5px 10px!important;
+        background: linear-gradient(188deg,#c48a04,#a0560d);
+    }
+    .navbar .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar .navbar-toggler span{
+        font-size: 30px;
+        color: #ffffff;
+    } 
+    .navbar .navbar-bg{
+        background:rgba(37, 20, 2, 0.6);
+    }
+    .navbar .navbar-nav .nav-item{
+        margin-right: 15px;
+        margin-top: 30px;
+    }
+    .navbar .navbar-bg .cta-btn{
+        margin-top: 15px;
+    }
+    .navbar .container .collapse .cta-btn:first-of-type{
+        margin-left: 280px;
+    }
+    /* menu ends */
+
+    /* banner starts */
+    #banner-bg{
+        padding-top: 50px;
+        padding-bottom: 150px;
+    }
+    #banner-bg .banner-image{
+        left: -195px;
+    }
+    #banner-bg .banner-image img{
+        transform: scale(.5);
+        -webkit-transform: scale(.5);
+        -moz-transform: scale(.5);
+        -ms-transform: scale(.5);
+        -o-transform: scale(.5);
+    }
+    #banner-bg .banner-text h1{
+        font-size: 250px;
+        line-height: 230px;
+    }
+    #banner-bg .banner-text p{
+        font-size: 15px;
+        padding-right: 0px;
+    }
+    #banner-bg .banner-text .cta-btn{
+        margin-left: 150px;
+    }
+    /* banner ends */
+
+
+     /* service starts */
+    #service .service-content .service-item{
+        padding: 25px 0px!important;
+    }
+    #service .service-content .service-item h3{
+        padding-bottom: 5px;
+    }
+    #service .service-content .service-item p{
+        font-size: 15px;
+    }
+    /* service ends */
+
+
+    /* game starts */
+    #game .game-content .game-item{
+        transform: scale(.93);
+        -webkit-transform: scale(.93);
+        -moz-transform: scale(.93);
+        -ms-transform: scale(.93);
+        -o-transform: scale(.93);
+    }
+    #game .game-content .game-item .game-overlay p{
+        padding-top: 60px;
+        padding-bottom: 25px;
+    }
+    /* game ends */
+
+    /* claim starts */
+    #claim{
+        padding-top: 0px;
+        padding-bottom:60px ;
+    }
+    #claim .claim-img{
+        left: -90px;
+    }
+    #claim .claim-img img{
+        transform: scale(.7);
+        -webkit-transform: scale(.7);
+        -moz-transform: scale(.7);
+        -ms-transform: scale(.7);
+        -o-transform: scale(.7);
+    }
+    #claim .claim-content{
+        padding-left: 5px;
+    }
+    #claim .claim-content h3{
+        font-size: 40px;
+        padding-top: 140px;
+        padding-bottom: 40px;
+    }
+    #claim .claim-content p{
+        font-size: 15px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+    #claim .claim-content .cta-btn{
+        margin-top: 20px;
+    }
+
+    /* claim ends */
+
+
+    /* price starts */
+
+    #price{
+        padding-top: 30px;
+        padding-bottom: 70px;
+    }
+    #price h3{
+        font-size: 40px;
+    }
+    #price .pricing-content{
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+    #price .pricing-content .trial-plan{
+        padding-bottom: 20px;
+    }
+    #price .pricing-content .trial-plan h4{
+        padding-top: 20px;
+        padding-bottom: 5px;
+        font-size: 26px;
+    }
+    #price .pricing-content .trial-plan h5{
+        font-size: 30px;
+    }
+    #price .pricing-content .trail-details ul li{
+        font-size: 13px;
+        padding-bottom: 15px;
+    }
+    #price .pricing-content .button{
+        width: 100%;
+        text-align: center;
+    }
+    #price .pricing-content .button .cta-btn{
+        font-size: 20px;
+        padding: 0px!important;
+    }
+    /* price ends */
+
+    /* faq starts */
+
+    #faq{
+        padding: 30px 0px;
+    }
+    #faq .faq-header .faq-heading img{
+        animation:effect 8s alternate infinite ;
+        -webkit-animation:effect 8s alternate infinite ;
+}
+    @keyframes effect{
+        0%{
+            left: 0%;
+        }
+        100%{
+            left: 55%;
+        }
+    }
+    #faq .tournament .time{
+        padding-top: 5px;
+    }
+    /* faq ends */
+
+    /* subscribe starts */
+
+    #subscribe{
+        padding: 15px 0;
+    }
+    #subscribe .subscribe-item .subscribe-head h3{
+        font-size: 25px;
+    }
+    #subscribe .subscribe-item input{
+        width: 270px;
+        padding: 4px 15px;
+    }
+    #subscribe .subscribe-item form button{
+        line-height: 32px;
+        padding: 0px 10px;
+    }
+    #subscribe .subscribe-item .subscribe-head{
+        margin-top: 15px;
+    }
+    #subscribe .subscribe-item .subscribe-image .image-item{
+        margin-right: 10px;
+        transform: scale(.9);
+        -webkit-transform: scale(.9);
+        -moz-transform: scale(.9);
+        -ms-transform: scale(.9);
+        -o-transform: scale(.9);
+}
+
+    /* subscribe ends */
+
+    /* footer starts */
+    footer{
+        padding: 20px 0;
+    }
+    footer .about-jackpot{
+        margin-top: 20px;
+    }
+    footer .about-jackpot h3{
+        font-size: 30px;
+    }
+    footer .about-jackpot p{
+        font-size: 13px;
+        padding: 15px 0px 24px 0px;
+    }
+    footer .about-jackpot ul li{
+        margin-right: 6px;
+    }
+    footer .important-links{
+        margin-top: 20px;
+    }
+    footer .important-links .links-item{
+        margin-top: 25px;
+    }
+    footer .important-links .links-item ul li{
+        margin-bottom: 10px;
+    }
+    footer .security-info{
+        margin-top:20px ;
+    }
+    footer .security-info h3{
+        font-size:30px ;
+    }
+    footer .security-info ul{
+        margin-top: 20px;
+    }
+    footer .security-info ul li{
+        margin-bottom: 20px;
+    }
+    footer .security-info ul li p{
+        padding-right: 0px;
+        font-size: 13px;
+    }
+    /* footer ends */
+
+    /* copy starts */
+    .copy p{
+        font-size: 15px;
+    }
+    /* copy ends */
+
+    /* arrow starts */
+    .arrow{
+        bottom: 10px;
+    }
+    /* arrow ends */
+}
+
+
+/* ======================
+medium device ends
+======================== */
