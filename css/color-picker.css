@@ -1,0 +1,385 @@
+.color-picker{
+    width: 250px;
+    height: 50px;
+    background: linear-gradient(to bottom,#ff39dc,#a60084);
+    position: fixed;
+    top: 500px;
+    right:-215px;
+    z-index: 99999;
+    display: flex;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+.color-pos{
+    right: 0px;
+}
+.color-picker .color-btn{
+    display: inline-block;
+    background: linear-gradient(to bottom,#fdb125,#e07e1e);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius:6px;
+    cursor: pointer;
+}
+.color-picker .color-btn i{
+    font-size: 35px;
+    text-align: center;
+    line-height: 50px;
+    color: #5813b8;
+}
+.color-picker ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.color-picker ul li{
+    margin-left: 6px;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    cursor: pointer;
+}
+.color-picker ul li.default{
+    width: 35px;
+    height: 35px;
+    background:#3a0090;
+    cursor: pointer;
+}
+.color-picker ul li.red{
+    width: 35px;
+    height: 35px;
+    background:#EA2027;
+    cursor: pointer;
+}
+.color-picker ul li.purple{
+    width: 35px;
+    height: 35px;
+    background:#B53471;
+    cursor: pointer;
+}
+.color-picker ul li.green{
+    width: 35px;
+    height: 35px;
+    background:#009432;
+    cursor: pointer;
+}
+.color-picker ul li.yellow{
+    width: 35px;
+    height: 35px;
+    background:#FFC312;
+    cursor: pointer;
+}
+/* ===================
+color-picker css ends
+==================== */
+.red .navbar .navbar-nav .nav-item .nav-link,
+.red #banner-bg .banner-text h1{
+    color:#EA2027;
+}
+.red .navbar .navbar-nav .nav-item.active .nav-link,
+.red #faq .tournament .time .time-zone h5,
+.red .navbar .navbar-nav .nav-item:hover .nav-link{
+    color: #f8c4c4;
+}
+.red .navbar .container .collapse .cta-btn,
+.red #banner-bg .banner-text .cta-btn,
+.red #game .game-content .game-item .game-overlay .cta-btn,
+.red #claim .claim-content .cta-btn,
+.red #price .pricing-content .button .cta-btn{
+    background:linear-gradient(to bottom,#EE5A24,#EA2027) ;
+    box-shadow: 0px 7px 0px #b8161b ;
+}
+.red #price .pricing-content .button .cta-btn{
+    text-shadow: 7px 7px 0px #b8161b;
+}
+.red #price .pricing-content .trial-plan h4{
+    text-shadow: 5px 5px 0px #b8161b;
+}
+.red .navbar .container .collapse .cta-btn:hover,
+.red #price .pricing-content .feature,
+.red #price .pricing-content:hover .button .cta-btn{
+    background:linear-gradient(to bottom,#ffb8b8,#ED4C67) ;
+    box-shadow: 0px 7px 0px #9e1129;
+}
+.red #game h3,
+.red #claim .claim-content h3,
+.red #price h3,
+.red #faq .faq-header .faq-heading h3,
+.red #faq .faq-header .faq-heading h3{
+    background:linear-gradient(to bottom,#EE5A24,#EA2027) ;
+    -webkit-background-clip:text;
+}
+.red #service .service-content .service-item,
+.red #price .pricing-content,
+.red footer .about-jackpot ul li a i,
+.red .arrow,
+.red .color-picker .color-btn{
+    background:linear-gradient(to bottom,#EE5A24,#EA2027) ;
+}
+.red #game .game-content .game-item .game-overlay{
+    background:rgba(234, 32, 39, 0.5) ;
+}
+.red #faq .question .accordion .accordion-item.border{
+    border:1px solid #EA2027 !important;
+}
+.red #faq .tournament .time .time-zone h5{
+    border:1px solid #EA2027;
+    background:linear-gradient(to bottom,#EE5A24,#EA2027) ;
+}
+.red .color-picker .color-btn i,
+.red #price .pricing-content:hover .button .cta-btn{
+    color: #ffffff;
+}
+.red #subscribe{
+    background:linear-gradient(to bottom,#EE5A24,#EA2027) ;
+    border-bottom: 6px solid #b8161b;
+}
+.red #subscribe .subscribe-item input,
+.red #subscribe .subscribe-item form button{
+    border: 1px solid #ffb8b8;
+}
+.red footer .about-jackpot ul li{
+    box-shadow: 0px 3px 0px #b8161b;
+}
+.red .color-picker,
+.red .nav-fix{
+    background:linear-gradient(to bottom,#ffb8b8,#ED4C67) ;
+}
+
+/* ====================
+red css ends
+====================== */
+.purple .navbar .navbar-nav .nav-item .nav-link,
+.purple #banner-bg .banner-text h1{
+    color:#833471;
+}
+.purple .navbar .navbar-nav .nav-item.active .nav-link,
+.purple #faq .tournament .time .time-zone h5,
+.purple .navbar .navbar-nav .nav-item:hover .nav-link{
+    color: #ffcccc;
+}
+.purple .navbar .container .collapse .cta-btn,
+.purple #banner-bg .banner-text .cta-btn,
+.purple #game .game-content .game-item .game-overlay .cta-btn,
+.purple #claim .claim-content .cta-btn,
+.purple #price .pricing-content .button .cta-btn{
+    background:linear-gradient(to bottom,#9980FA,#D980FA) ;
+    box-shadow: 0px 7px 0px #9d5ab6 ;
+}
+.purple #price .pricing-content .button .cta-btn{
+    text-shadow: 7px 7px 0px #9d5ab6;
+}
+.purple #price .pricing-content .trial-plan h4{
+    text-shadow: 5px 5px 0px #9d5ab6;
+}
+.purple .navbar .container .collapse .cta-btn:hover,
+.purple #price .pricing-content .feature,
+.purple #price .pricing-content:hover .button .cta-btn{
+    background:linear-gradient(to bottom,#ffcccc,#cd84f1) ;
+    box-shadow: 0px 7px 0px #9d5ab6;
+}
+.purple #game h3,
+.purple #claim .claim-content h3,
+.purple #price h3,
+.purple #faq .faq-header .faq-heading h3,
+.purple #faq .faq-header .faq-heading h3{
+    background:linear-gradient(to bottom,#9980FA,#D980FA) ;
+    -webkit-background-clip:text;
+}
+.purple #service .service-content .service-item,
+.purple #price .pricing-content,
+.purple footer .about-jackpot ul li a i,
+.purple .arrow,
+.purple .color-picker .color-btn{
+    background:linear-gradient(to bottom,#9980FA,#D980FA) ;
+}
+.purple #game .game-content .game-item .game-overlay{
+    background:rgba(217, 128, 250, 0.5) ;
+}
+.purple #faq .question .accordion .accordion-item.border{
+    border:1px solid #D980FA !important;
+}
+.purple #faq .tournament .time .time-zone h5{
+    border:1px solid #D980FA;
+    background:linear-gradient(to bottom,#9980FA,#D980FA) ;
+}
+.purple .color-picker .color-btn i,
+.purple #price .pricing-content:hover .button .cta-btn{
+    color: #ffffff;
+}
+.purple #subscribe{
+    background:linear-gradient(to bottom,#9980FA,#D980FA) ;
+    border-bottom: 6px solid #9d5ab6;
+}
+.purple #subscribe .subscribe-item input,
+.purple #subscribe .subscribe-item form button{
+    border: 1px solid #ffcccc;
+}
+.purple footer .about-jackpot ul li{
+    box-shadow: 0px 3px 0px #9d5ab6;
+}
+.purple .color-picker,
+.purple .nav-fix{
+    background:linear-gradient(to bottom,#ffcccc,#cd84f1) ;
+}
+
+/* ====================
+purple css ends
+====================== */
+.green .navbar .navbar-nav .nav-item .nav-link,
+.green #banner-bg .banner-text h1{
+    color:#6ab04c;
+}
+.green .navbar .navbar-nav .nav-item.active .nav-link,
+.green #faq .tournament .time .time-zone h5,
+.green .navbar .navbar-nav .nav-item:hover .nav-link{
+    color: #009432;
+}
+.green .navbar .container .collapse .cta-btn,
+.green #banner-bg .banner-text .cta-btn,
+.green #game .game-content .game-item .game-overlay .cta-btn,
+.green #claim .claim-content .cta-btn,
+.green #price .pricing-content .button .cta-btn{
+    background:linear-gradient(to bottom,#C4E538,#A3CB38) ;
+    box-shadow: 0px 7px 0px #7d9b2a ;
+}
+.green #price .pricing-content .button .cta-btn{
+    text-shadow: 7px 7px 0px #7d9b2a;
+}
+.green #price .pricing-content .trial-plan h4{
+    text-shadow: 5px 5px 0px #7d9b2a;
+}
+.green .navbar .container .collapse .cta-btn:hover,
+.green #price .pricing-content .feature,
+.green #price .pricing-content:hover .button .cta-btn{
+    background:linear-gradient(to bottom,#7bed9f,#2ed573) ;
+    box-shadow: 0px 7px 0px #23a057;
+}
+.green #game h3,
+.green #claim .claim-content h3,
+.green #price h3,
+.green #faq .faq-header .faq-heading h3,
+.green #faq .faq-header .faq-heading h3{
+    background:linear-gradient(to bottom,#C4E538,#A3CB38) ;
+    -webkit-background-clip:text;
+}
+.green #service .service-content .service-item,
+.green #price .pricing-content,
+.green footer .about-jackpot ul li a i,
+.green .arrow,
+.green .color-picker .color-btn{
+    background:linear-gradient(to bottom,#C4E538,#A3CB38) ;
+}
+.green #game .game-content .game-item .game-overlay{
+    background:rgba(125, 155, 42, 0.5) ;
+}
+.green #faq .question .accordion .accordion-item.border{
+    border:1px solid #7d9b2a !important;
+}
+.green #faq .tournament .time .time-zone h5{
+    border:1px solid #7d9b2a;
+    background:linear-gradient(to bottom,#C4E538,#A3CB38) ;
+}
+.green .color-picker .color-btn i,
+.green #price .pricing-content:hover .button .cta-btn{
+    color: #ffffff;
+}
+.green #subscribe{
+    background:linear-gradient(to bottom,#C4E538,#A3CB38) ;
+    border-bottom: 6px solid #7d9b2a;
+}
+.green #subscribe .subscribe-item input,
+.green #subscribe .subscribe-item form button{
+    border: 1px solid #009432;
+}
+.green footer .about-jackpot ul li{
+    box-shadow: 0px 3px 0px #7d9b2a;
+}
+.green .color-picker,
+.green .nav-fix{
+    background:linear-gradient(to bottom,#7bed9f,#2ed573) ;
+}
+
+/* ====================
+green css ends
+====================== */
+.yellow .navbar .navbar-nav .nav-item .nav-link,
+.yellow #banner-bg .banner-text h1{
+    color:#fff200;
+}
+.yellow .navbar .navbar-nav .nav-item.active .nav-link,
+.yellow #faq .tournament .time .time-zone h5,
+.yellow .navbar .navbar-nav .nav-item:hover .nav-link{
+    color: #df732b;
+}
+.yellow .navbar .container .collapse .cta-btn,
+.yellow #banner-bg .banner-text .cta-btn,
+.yellow #game .game-content .game-item .game-overlay .cta-btn,
+.yellow #claim .claim-content .cta-btn,
+.yellow #price .pricing-content .button .cta-btn{
+    background:linear-gradient(to bottom,#f7d794,#ffaf40) ;
+    box-shadow: 0px 7px 0px #d19036 ;
+}
+.yellow #price .pricing-content .button .cta-btn{
+    text-shadow: 7px 7px 0px #aa851f;
+}
+.yellow #price .pricing-content .trial-plan h4{
+    text-shadow: 5px 5px 0px #aa851f;
+}
+.yellow .navbar .container .collapse .cta-btn:hover,
+.yellow #price .pricing-content .feature,
+.yellow #price .pricing-content:hover .button .cta-btn{
+    background:linear-gradient(to bottom,#f7b731,#ff793f) ;
+    box-shadow: 0px 7px 0px #c58609;
+}
+.yellow #game h3,
+.yellow #claim .claim-content h3,
+.yellow #price h3,
+.yellow #faq .faq-header .faq-heading h3,
+.yellow #faq .faq-header .faq-heading h3{
+    background:linear-gradient(to bottom,#fbc531,#ff793f) ;
+    -webkit-background-clip:text;
+}
+.yellow #service .service-content .service-item,
+.yellow #price .pricing-content,
+.yellow footer .about-jackpot ul li a i,
+.yellow .arrow,
+.yellow .color-picker .color-btn{
+    background:linear-gradient(to bottom,#fbc531,#ff793f) ;
+}
+.yellow #game .game-content .game-item .game-overlay{
+    background:rgba(225, 177, 44, 0.5) ;
+}
+.yellow #faq .question .accordion .accordion-item.border{
+    border:1px solid #aa851f !important;
+}
+.yellow #faq .tournament .time .time-zone h5{
+    border:1px solid #aa851f;
+    background:linear-gradient(to bottom,#fbc531,#ff793f) ;
+}
+.yellow .color-picker .color-btn i,
+.yellow #price .pricing-content:hover .button .cta-btn{
+    color: #ffffff;
+}
+.yellow #subscribe{
+    background:linear-gradient(to bottom,#fbc531,#ff793f) ;
+    border-bottom: 6px solid #aa851f;
+}
+.yellow #subscribe .subscribe-item input,
+.yellow #subscribe .subscribe-item form button{
+    border: 1px solid #7e6111;
+}
+.yellow footer .about-jackpot ul li{
+    box-shadow: 0px 3px 0px #aa851f;
+}
+.yellow .color-picker,
+.yellow .nav-fix{
+    background:linear-gradient(to bottom,#f7d794,#f5cd79) ;
+}
+
+/* ====================
+yellow css ends
+====================== */

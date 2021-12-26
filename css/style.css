@@ -88,7 +88,7 @@ font-size css ends
     z-index: 9999;
 }
 .nav-fix{
-    background: linear-gradient(188deg,#c48a04,#a0560d);
+    background: linear-gradient(188deg,#7efff5,#17c0eb);
 }
 .navbar .navbar-brand {
     margin-left: 14px!important;
@@ -126,11 +126,11 @@ font-size css ends
     -moz-transition: all linear .4s;
     -ms-transition: all linear .4s;
     -o-transition: all linear .4s;
-    box-shadow: 0px 6px 0px #3a0090;
+    box-shadow: 0px 7px 0px #3a0090;
 }
 .navbar .container .collapse .cta-btn:hover{
     background: linear-gradient(to bottom,#ff39dc,#a60084);
-    box-shadow: 0px 6px 0px #661355;
+    box-shadow: 0px 7px 0px #661355;
 }
 .navbar .container .collapse .btn-check:focus + .btn,
 .navbar .container .collapse .btn:focus{
@@ -337,6 +337,7 @@ claim css ends
     background:#0b001b;
     padding-top: 100px;
     padding-bottom: 110px;
+    overflow: hidden;
 }
 #price h3{
     background: linear-gradient(to bottom,#fdb125,#e07e1e);
@@ -352,7 +353,7 @@ claim css ends
 }
 #price .pricing-content .feature{
     background: linear-gradient(to bottom,#ff39dc,#a60084);
-    box-shadow: 0px 6px 0px #661355;
+    box-shadow: 0px 7px 0px #661355;
     display: none;
 }
 #price .pricing-content:hover .feature{
@@ -401,7 +402,7 @@ claim css ends
 }
 #price .pricing-content:hover .button .cta-btn{
     background: linear-gradient(to bottom,#ff39dc,#a60084);
-    box-shadow: 0px 6px 0px #661355;
+    box-shadow: 0px 7px 0px #661355;
     text-shadow: 7px 7px 0px #a60084;
 }
 /* ====================
@@ -710,4 +711,11 @@ copy css ends
 /* ====================
 arrow css ends
 ====================== */
+
+
+
+
+
+
+
 
