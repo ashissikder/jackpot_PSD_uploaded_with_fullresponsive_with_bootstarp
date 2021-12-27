@@ -84,6 +84,69 @@ font-family css ends
 /* ====================
 font-size css ends
 ====================== */
+.preloader{
+    width: 100%;
+    height: 100vh;
+    background: #0b001b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.preloader .loading{
+    height: 60px;
+    width: 60px;
+    background: linear-gradient(to bottom,#ff39dc,#a60084);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transform: scale(0);
+    opacity: 0;
+    animation: ball 1.5s linear infinite;
+    -webkit-animation: ball 1.5s linear infinite;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+}
+@keyframes ball{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+        -webkit-transform: scale(0);
+        -moz-transform: scale(0);
+        -ms-transform: scale(0);
+        -o-transform: scale(0);
+    }
+
+    50%{
+        opacity:1 ;
+        transform: scale(.6);
+        -webkit-transform: scale(.6);
+        -moz-transform: scale(.6);
+        -ms-transform: scale(.6);
+        -o-transform: scale(.6);
+}
+
+    100%{
+    opacity:0 ;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+}
+
+
+/* ====================
+loading css ends
+====================== */
 .navbar{
     z-index: 9999;
 }
@@ -682,7 +745,7 @@ copy css ends
     width: 40px;
     height: 40px;
     cursor: pointer;
-    background: linear-gradient(to bottom,#ff39dc,#a60084);
+    background: linear-gradient(188deg,#7efff5,#17c0eb);
     bottom: 10px;
     right: 10px;
 }

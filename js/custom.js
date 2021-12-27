@@ -1,4 +1,7 @@
 $(document).ready(function(){
+    // loading
+    $('.preloader').delay(3000).fadeOut();
+
     // window scroll
     $(window).scroll(function(){
         // arrow scroll
