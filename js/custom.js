@@ -1,16 +1,18 @@
 $(document).ready(function(){
+    "use strict";
+
     // loading
     $('.preloader').delay(3000).fadeOut();
 
     // window scroll
-    $(window).scroll(function(){
-        // arrow scroll
+    $(window).on('scroll',function(){
+        // back to top scroll
         var scrolling =$(this).scrollTop();
         if(scrolling>400){
-            $('.arrow').fadeIn();
+            $('.back_to_top').fadeIn();
         }
         else{
-            $('.arrow').fadeOut();
+            $('.back_to_top').fadeOut();
         }
         // nav scroll
         if(scrolling>136){
@@ -21,15 +23,17 @@ $(document).ready(function(){
         }
     });
 
-    // arrow click
-    $(".arrow").on('click',function(){
+    // back to top click
+    $(".back_to_top").on('click',function(){
         $('html,body').animate({
             scrollTop:'0px',
         });
     });
     // navbar active
     $('.navbar .navbar-nav .nav-item').on('click',function(){
+
     $(this).addClass('active').siblings().removeClass('active');
+    
     });
 
     //faq  accordian

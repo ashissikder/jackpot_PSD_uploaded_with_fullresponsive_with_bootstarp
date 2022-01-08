@@ -1,3 +1,29 @@
+/*
+Tamplate name : Jackpot;
+Aurtor : Ashis Sikder;
+Version : 1.0;
+
+table 
+--------
+    1. root css
+    2. common css
+    3. font-family css
+    4. font-size css
+    5. loading css
+    6. navbar css
+    7. banner css
+    8. service css
+    9. game css
+    10. claim css
+    11. price css
+    12. faq css
+    13. subscribe css
+    14. footer css
+    15. copyright css
+    16. back to top css
+
+*/
+
 :root{
     --ffn:'Nunito', sans-serif;
     --ffa:'Anton', sans-serif;;
@@ -11,6 +37,9 @@
     --cyd:#e07f1f;
     --over85:rgba(21, 0, 53, 0.85);
 }
+/* ===================
+root css ends
+====================== */
 
 *{
     margin: 0;
@@ -469,7 +498,7 @@ claim css ends
     text-shadow: 7px 7px 0px #a60084;
 }
 /* ====================
-pricing css ends
+price css ends
 ====================== */
 #faq{
     background:#150035 ;
@@ -544,7 +573,7 @@ pricing css ends
 }
 /* accordion ends */
 
-/* time starts */
+/* countdown starts */
 #faq .tournament{
     padding-left: 6px;
 }
@@ -563,7 +592,7 @@ pricing css ends
     color: transparent;
     text-shadow: 0px 0px 70px rgba(255, 0, 230, 0.2);
 }
-/* time ends */
+/* countdown ends */
 
 /* scroll starts */
 #faq .tournament .scroll{
@@ -738,9 +767,9 @@ footer css ends
 }
 
 /* ====================
-copy css ends
+copyright css ends
 ====================== */
-.arrow{
+.back_to_top{
     display: none;
     width: 40px;
     height: 40px;
@@ -749,7 +778,7 @@ copy css ends
     bottom: 10px;
     right: 10px;
 }
-.arrow  i{
+.back_to_top  i{
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -772,7 +801,7 @@ copy css ends
 }
 
 /* ====================
-arrow css ends
+back to top css ends
 ====================== */
 
 

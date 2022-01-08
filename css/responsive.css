@@ -2,13 +2,17 @@
 extra small device starts
 ======================== */
 @media(max-width:575px){
-    /* menu starts */
 
-    .nav-fix{
-        background: none;
+    /* navbar starts */
+    .navbar{
+        background: rgba(0, 0, 0, 0.7);
+        top: 30px!important;
+    }
+    .navbar .navbar-brand {
+        width: 170px;
     }
     .navbar .navbar-toggler{
-        margin-top:70px;
+        margin-top:40px;
         margin-right: 10px;
         padding: 5px 10px!important;
         background: linear-gradient(188deg,#c48a04,#a0560d);
@@ -21,7 +25,7 @@ extra small device starts
         color: #ffffff;
     } 
     .navbar .navbar-bg{
-        background:rgba(37, 20, 2, 0.6);
+        background:rgba(37, 20, 2, 0.1);
     }
     .navbar .navbar-nav{
         align-items:flex-end;
@@ -34,7 +38,7 @@ extra small device starts
     .navbar .navbar-bg .cta-btn{
         margin-top: 15px;
     }
-    /* menu ends */
+    /* navbar ends */
 
 
     /* banner starts */
@@ -294,17 +298,17 @@ extra small device starts
     }
     /* footer ends */
 
-    /* copy starts */
+    /* copyright starts */
     .copy p{
         font-size: 13px;
     }
-    /* copy ends */
+    /* copyright ends */
 
-    /* arrow starts */
-    .arrow{
+    /* back to top starts */
+    .back_to_top{
         bottom: 80px;
     }
-    /* arrow ends */
+    /* back to top ends */
 }
 
 
@@ -317,13 +321,17 @@ extra small device ends
 small device starts
 ======================== */
 @media(min-width:576px) and (max-width:767px){
-    /* menu starts */
 
-    .nav-fix{
-        background: none;
+    /* menu starts */
+    .navbar{
+        background: rgba(0, 0, 0, 0.7);
+        top: 30px!important;
+    }
+    .navbar .navbar-brand {
+        width: 200px;
     }
     .navbar .navbar-toggler{
-        margin-top:70px;
+        margin-top:50px;
         margin-right: 10px;
         padding: 5px 10px!important;
         background: linear-gradient(188deg,#c48a04,#a0560d);
@@ -336,7 +344,7 @@ small device starts
         color: #ffffff;
     } 
     .navbar .navbar-bg{
-        background:rgba(37, 20, 2, 0.6);
+        background:rgba(37, 20, 2, 0.1);
     }
     .navbar .navbar-nav{
         align-items:flex-end;
@@ -617,11 +625,11 @@ small device starts
     }
     /* copy ends */
 
-    /* arrow starts */
-    .arrow{
+    /* back to top starts */
+    .back_to_top{
         bottom: 10px;
     }
-    /* arrow ends */
+    /* back to top ends */
 }
 
 
@@ -637,8 +645,8 @@ medium device starts
 @media(min-width:768px) and (max-width:991px){
     /* menu starts */
 
-    .nav-fix{
-        background: none;
+    .navbar{
+        background: rgba(0, 0, 0, 0.7);
     }
     .navbar .navbar-toggler{
         margin-top:70px;
@@ -654,7 +662,7 @@ medium device starts
         color: #ffffff;
     } 
     .navbar .navbar-bg{
-        background:rgba(37, 20, 2, 0.6);
+        background:rgba(37, 20, 2, 0.1);
     }
     .navbar .navbar-nav .nav-item{
         margin-right: 15px;
@@ -899,11 +907,11 @@ medium device starts
     }
     /* copy ends */
 
-    /* arrow starts */
-    .arrow{
+    /* back to top starts */
+    .back_to_top{
         bottom: 10px;
     }
-    /* arrow ends */
+    /* back to top ends */
 }
 
 

@@ -115,7 +115,7 @@ color-picker css ends
 .red #service .service-content .service-item,
 .red #price .pricing-content,
 .red footer .about-jackpot ul li a i,
-.red .arrow,
+.red .back_to_top,
 .red .color-picker .color-btn{
     background:linear-gradient(to bottom,#EE5A24,#EA2027) ;
 }
@@ -145,7 +145,7 @@ color-picker css ends
     box-shadow: 0px 3px 0px #b8161b;
 }
 .red .color-picker,
-.red .nav-fix{
+.red .navbar{
     background:linear-gradient(to bottom,#ffb8b8,#ED4C67) ;
 }
 
@@ -192,7 +192,7 @@ red css ends
 .purple #service .service-content .service-item,
 .purple #price .pricing-content,
 .purple footer .about-jackpot ul li a i,
-.purple .arrow,
+.purple .back_to_top,
 .purple .color-picker .color-btn{
     background:linear-gradient(to bottom,#9980FA,#D980FA) ;
 }
@@ -222,7 +222,7 @@ red css ends
     box-shadow: 0px 3px 0px #9d5ab6;
 }
 .purple .color-picker,
-.purple .nav-fix{
+.purple .navbar{
     background:linear-gradient(to bottom,#ffcccc,#cd84f1) ;
 }
 
@@ -231,7 +231,7 @@ purple css ends
 ====================== */
 .green .navbar .navbar-nav .nav-item .nav-link,
 .green #banner-bg .banner-text h1{
-    color:#6ab04c;
+    color:#4b663f;
 }
 .green .navbar .navbar-nav .nav-item.active .nav-link,
 .green #faq .tournament .time .time-zone h5,
@@ -269,7 +269,7 @@ purple css ends
 .green #service .service-content .service-item,
 .green #price .pricing-content,
 .green footer .about-jackpot ul li a i,
-.green .arrow,
+.green .back_to_top,
 .green .color-picker .color-btn{
     background:linear-gradient(to bottom,#C4E538,#A3CB38) ;
 }
@@ -299,7 +299,7 @@ purple css ends
     box-shadow: 0px 3px 0px #7d9b2a;
 }
 .green .color-picker,
-.green .nav-fix{
+.green .navbar{
     background:linear-gradient(to bottom,#7bed9f,#2ed573) ;
 }
 
@@ -346,7 +346,7 @@ green css ends
 .yellow #service .service-content .service-item,
 .yellow #price .pricing-content,
 .yellow footer .about-jackpot ul li a i,
-.yellow .arrow,
+.yellow .back_to_top,
 .yellow .color-picker .color-btn{
     background:linear-gradient(to bottom,#fbc531,#ff793f) ;
 }
@@ -376,7 +376,7 @@ green css ends
     box-shadow: 0px 3px 0px #aa851f;
 }
 .yellow .color-picker,
-.yellow .nav-fix{
+.yellow .navbar{
     background:linear-gradient(to bottom,#f7d794,#f5cd79) ;
 }
 
